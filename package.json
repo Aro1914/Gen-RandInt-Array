@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Aro1914/GenArray.git"
+    "url": "git+https://github.com/Aro1914/Gen-RandInt-Array.git"
   },
   "keywords": [
     "Random",
@@ -21,7 +21,7 @@
   "author": "Emmanuel Agbavwe",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/Aro1914/GenArray/issues"
+    "url": "https://github.com/Aro1914/Gen-RandInt-Array/issues"
   },
-  "homepage": "https://github.com/Aro1914/GenArray#readme"
+  "homepage": "https://github.com/Aro1914/Gen-RandInt-Array#readme"
 }

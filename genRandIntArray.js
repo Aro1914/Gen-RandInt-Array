@@ -23,7 +23,7 @@
  * @param {Number} negPos 
  * @returns array<Number>
  */
-const genArray = (size, negPos) => {
+const genRandIntArray = (size, negPos) => {
     let randomArray = [];
     for (let i = 0; i < size; i++) {
         randomArray[i] = ((Math.floor(Math.random() * ((negPos * 2) + 1))) - negPos);
@@ -32,6 +32,6 @@ const genArray = (size, negPos) => {
 };
 // Please note that this takes considerable amount of runtime for especially large arrays (usually few seconds)
 // To verify the output data in the array uncomment and run the line below
-// console.log(genArray(10000000, 1000000)); // This will create an array 1 million indices big and fill it with integers given the minimum possible and maximum possible values as -1000000 and 1000000 respectively
+// console.log(genRandIntArray(10000000, 1000000)); // This will create an array 1 million indices big and fill it with integers given the minimum possible and maximum possible values as -1000000 and 1000000 respectively
 
 export default genArray;
