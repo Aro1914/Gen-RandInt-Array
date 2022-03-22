@@ -20,6 +20,7 @@
   ],
   "author": "Emmanuel Agbavwe",
   "license": "Apache-2.0",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/Aro1914/Gen-RandInt-Array/issues"
   },

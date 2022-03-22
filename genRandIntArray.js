@@ -18,7 +18,7 @@
 
 
 /**
- * Populates an array of a specified size with randomly generated integers given the min and max range as negPos
+ * Populates an array of a specified size with randomly generated integers given the min and max range as negPos.
  * @param {Number} size 
  * @param {Number} negPos 
  * @returns array<Number>
@@ -34,4 +34,4 @@ const genRandIntArray = (size, negPos) => {
 // To verify the output data in the array uncomment and run the line below
 // console.log(genRandIntArray(10000000, 1000000)); // This will create an array 1 million indices big and fill it with integers given the minimum possible and maximum possible values as -1000000 and 1000000 respectively
 
-export default genArray;
+export default genRandIntArray;

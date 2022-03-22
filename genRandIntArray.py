@@ -21,7 +21,7 @@ import random
 
 
 def genRandIntArray(size, neg_pos):
-    '''This populates an array of a specified size with randomly generated integers given the min and max range as neg_pos
+    '''This populates an array of a specified size with randomly generated integers given the min and max range as neg_pos.
     :param size: int
     :neg_pos: int
     :return: list[int]
