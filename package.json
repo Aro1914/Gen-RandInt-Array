@@ -1,0 +1,27 @@
+{
+  "name": "genarray",
+  "version": "1.0.0",
+  "description": "A helper function that returns an array filled with random integers.",
+  "main": "genArray.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aro1914/GenArray.git"
+  },
+  "keywords": [
+    "Random",
+    "Array",
+    "Generator",
+    "Integer",
+    "Helper-Functions",
+    "Function"
+  ],
+  "author": "Emmanuel Agbavwe",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Aro1914/GenArray/issues"
+  },
+  "homepage": "https://github.com/Aro1914/GenArray#readme"
+}
