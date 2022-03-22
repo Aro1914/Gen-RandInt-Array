@@ -1,6 +1,6 @@
 {
   "name": "genarray",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "A helper function that returns an array filled with random integers.",
   "main": "genArray.js",
   "scripts": {
