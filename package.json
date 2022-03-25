@@ -1,5 +1,5 @@
 {
-  "name": "gen-randint-array",
+  "name": "@aro1914/gen-randint-array",
   "version": "1.0.1",
   "description": "A helper function that returns an array filled with random integers.",
   "main": "genRandIntArray.js",
