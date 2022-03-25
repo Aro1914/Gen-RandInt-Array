@@ -2,12 +2,19 @@
 
 ## Contents
 
-- [Description](#description)
-- 
+- [Gen-RandInt-Array](#gen-randint-array)
+  - [Contents](#contents)
+  - [Description](#description)
+  - [Usage](#usage)
+    - [Client-side and Server-side](#client-side-and-server-side)
+  - [Requirements](#requirements)
+  - [Contributors](#contributors)
+  - [Contributing](#contributing)
+  - [License](#license)
 
 ## Description
 
-Gen-RandInt-Array is a helper function to help you generate an array with a length of your choice and given the min and max range as negPos
+Gen-RandInt-Array is a helper function to help you generate an array with a length of your choice and given the min and max range as ±negPos
 
 Compatible with both client-side and server-side environments.
 
@@ -39,7 +46,17 @@ import genRandIntArray from 'gen-randint-array';
 const array = genRandIntArray(10, 10); //
 ```
 
+## Requirements
 
+The Gen-RandInt-Array helper function has zero dependencies.
+
+## Contributors
+
+<a href = "https://github.com/Aro1914/Gen-RandInt-Array/graphs/contributors">
+  <img src = "https://contrib.rocks/image?repo = Aro1914/Gen-RandInt-Array"/>
+</a>
+
+Made with [contributors-img](https://contrib.rocks).
 
 ## Contributing
 
@@ -48,4 +65,3 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 ## License
 
 The Gen-RandInt-Array Project is released under the [Apache License](http://www.apache.org/licenses/).
-

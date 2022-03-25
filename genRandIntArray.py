@@ -33,4 +33,4 @@ def genRandIntArray(size, neg_pos):
     return randomArray
 # Please note that this takes considerable amount of runtime for large arrays (usually few seconds)
 # To verify the output data in the array uncomment and run the line below
-# print(genRandIntArray(1000000,1000000)) # This will create an array 1 million indices big and fill it with whole numbers given the minimum possible and maximum possible values as -1000000 and 1000000 respectively
+# print(genRandIntArray(1000000,1000000)) # This will create an array 1 million indices big and fill it with whole numbers given the minimum possible and maximum possible values as ±1000000

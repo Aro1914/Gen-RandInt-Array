@@ -1,1 +1,0 @@
-declare module 'gen-randint-array';
