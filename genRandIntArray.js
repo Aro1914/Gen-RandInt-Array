@@ -18,7 +18,7 @@
 
 
 /**
- * Populates an array of a specified size with randomly generated integers given the min and max range as negPos.
+ * Populates an array of a specified size with randomly generated integers given the min and max range as ±negPos.
  * @param {Number} size 
  * @param {Number} negPos 
  * @returns array<Number>
