@@ -50,14 +50,6 @@ const array = genRandIntArray(10, 10); //
 
 The Gen-RandInt-Array helper function has zero dependencies.
 
-## Contributors
-
-<a href = "https://github.com/Aro1914/Gen-RandInt-Array/graphs/contributors">
-  <img src = "https://contrib.rocks/image?repo = Aro1914/Gen-RandInt-Array"/>
-</a>
-
-Made with [contributors-img](https://contrib.rocks).
-
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
