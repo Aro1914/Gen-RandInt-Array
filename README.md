@@ -1,14 +1,13 @@
-# Gen-RandInt-Array
+# Gen-RandInt-Array (For Client Side)
 
 ## Contents
 
-- [Gen-RandInt-Array](#gen-randint-array)
+- [Gen-RandInt-Array (For Client Side)](#gen-randint-array-for-client-side)
   - [Contents](#contents)
   - [Description](#description)
   - [Usage](#usage)
-    - [Client-side and Server-side](#client-side-and-server-side)
+    - [Client-side Only](#client-side-only)
   - [Requirements](#requirements)
-  - [Contributors](#contributors)
   - [Contributing](#contributing)
   - [License](#license)
 
@@ -20,7 +19,7 @@ Compatible with both client-side and server-side environments.
 
 ## Usage
 
-### Client-side and Server-side
+### Client-side Only
 
 Install the **Gen-RandInt-Array** package with [NPM](https://www.npmjs.org/):
 
@@ -28,7 +27,7 @@ Install the **Gen-RandInt-Array** package with [NPM](https://www.npmjs.org/):
 npm install gen-randint-array
 ```
 
-In your package.json, set "type" to "module" to enable you import a module.
+In your package.json, set "type" to "module" to enable you import an ES Module.
 
 ```json
 "type" : "module"
@@ -38,12 +37,12 @@ Or you can rename the javascript file the module is to be used to have the .mjs 
 
 That is from `index.js` to `index.mjs`
 
-Now when that is done, in your application code, import the **genRandIntArray()** method and assign the return value to a variable:
+Now when that is done, in your application code, import the `genRandIntArray()` method and assign the return value to a variable:
 
 ```js
 import genRandIntArray from 'gen-randint-array';
 
-const array = genRandIntArray(10, 10); //
+const array = genRandIntArray(10, 10); // Returns an array of 10 random values ranging from -10 to 10
 ```
 
 ## Requirements
