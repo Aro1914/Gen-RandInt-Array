@@ -1,6 +1,6 @@
 {
   "name": "gen-randint-array",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "A helper function that returns an array filled with random integers.",
   "main": "genRandIntArray.js",
   "scripts": {
