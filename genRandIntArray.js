@@ -1,5 +1,5 @@
 /**
- *   Description: A helper function that returns an array filled with random integers.
+ *   Description: A helper function that returns an array filled with random numbers.
  * 
  *   Copyright 2022 Emmanuel Agbavwe to Present.
  *
@@ -16,22 +16,25 @@
  *   limitations under the License.
  */
 
-
 /**
- * Populates an array of a specified size with randomly generated integers given the min and max range as ±negPos.
- * @param {Number} size 
- * @param {Number} negPos 
- * @returns array<Number>
+ * Populates an array of a specified size with randomly generated integers, setting the range of possible values using the from and to arguments.
+ * @param {Number} size The desired size of the array
+ * @param {Number} from The upper bound of the range
+ * @param {Number} to The lower bound of the range
+ * @returns {Array<Number>} An array of integers within the specified range.
  */
-const genRandIntArray = (size, negPos) => {
-    let randomArray = [];
-    for (let i = 0; i < size; i++) {
-        randomArray[i] = ((Math.floor(Math.random() * ((negPos * 2) + 1))) - negPos);
+const genRandIntArray = (size = 0, from = 0, to = 0) => {
+    const randomArray = [];
+    let i = 0;
+    for (i; i < size; i++) {
+        randomArray[i] = to + Math.round((Math.random() * (from - to)));
     }
     return randomArray;
 };
-// Please note that this takes considerable amount of runtime for especially large arrays (usually few seconds)
-// To verify the output data in the array uncomment and run the line below
-// console.log(genRandIntArray(10000000, 1000000)); // This will create an array 1 million indices big and fill it with integers given the minimum possible and maximum possible values as ±1000000
 
-export default genRandIntArray;
+// To verify the output data in the array uncomment and run the lines below
+// console.log(genArray(10000000, 1000, 500)); // This will create an array with a length of 10 million and fill it with integers given the minimum possible value as 500 and the maximum possible value as 1000. 
+// Note that inverting the from and to arguments would still produce the same results for the JavaScript implementation.
+
+
+export default genRandIntArray();

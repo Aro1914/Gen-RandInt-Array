@@ -20,17 +20,22 @@ import math
 import random
 
 
-def genRandIntArray(size, neg_pos):
-    '''This populates an array of a specified size with randomly generated integers given the min and max range as neg_pos.
-    :param size: int
-    :neg_pos: int
-    :return: list[int]
+def genRandIntArray(size = 0, _from = 0, to = 0):
+    '''Populates an array of a specified size with randomly generated integers, setting the range of possible values using the from and to arguments.
+    param size: int
+    _from: int
+    to: int
+    :returns: list[int]
     '''
-    randomArray = [0] * size
-    for i in range(size):
-        randomArray[i] = (
-            int(math.floor(random.randrange(neg_pos*-1, neg_pos+1))))
-    return randomArray
-# Please note that this takes considerable amount of runtime for large arrays (usually few seconds)
-# To verify the output data in the array uncomment and run the line below
-# print(genRandIntArray(1000000,1000000)) # This will create an array 1 million indices big and fill it with whole numbers given the minimum possible and maximum possible values as ±1000000
+    try:
+        randomArray = [0] * size
+        for i in range(size):
+            randomArray[i] = (
+                int(math.floor(random.randrange(_from, to+1))))
+        return randomArray
+    except ValueError:
+        return 'Invalid arguments passed. "_from" must be greater than or equal to "to"'
+
+# To verify the output data in the array uncomment and run the lines below
+# print(genArray(10000000, 1000, 500)); # This will create a list with a length of 10 million and fill it with integers given the minimum possible value as 500 and the maximum possible value as 1000.
+# Note that inverting the _from and to arguments would cause an error as the '_from' argument must be greater than or equal to 'to'.
