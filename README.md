@@ -13,7 +13,7 @@
 
 ## Description
 
-Gen-RandInt-Array is a helper function to help you generate an array with a length of your choice and given the min and max range as ±negPos
+Gen-RandInt-Array is a helper function to help you generate an array of a specified size with random integers, setting the range of possible values using the from and to arguments.
 
 Compatible with both client-side and server-side environments.
 
@@ -42,7 +42,7 @@ Now when that is done, in your application code, import the `genRandIntArray()` 
 ```js
 import genRandIntArray from 'gen-randint-array';
 
-const array = genRandIntArray(10, 10); // Returns an array of 10 random values ranging from -10 to 10
+const array = genRandIntArray(10, 10, 5); // Returns an array of 10 random values ranging from 10 to 5
 ```
 
 ## Requirements
